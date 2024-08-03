@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .contiene{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .border-0{
+        border-radius: 8px;
+    }
+    .mt-1{
+        margin-top: 1rem;
+    }
+    .mt-2{
+        margin-top: 1.4rem;
+    }
+    .mt-3{
+        margin-top: 0.3rem;
+    }
+    .mt-4{
+        margin-top: -0.5rem;
+    }
+    .bg-color0{
+        background-color:black ;
+    }
+    
+    .bg-color1{
+        background-color:rgb(20, 20, 20) ;
+    }
+    
+    .bg-color2{
+        background-color:rgb(77, 77, 77) ;
+    }
+    .bg-color3{
+        background-color:rgb(228, 228, 228) ;
+    }
+    .bg-color4{
+        background-color:rgb(255, 255, 255) ;
+    }
+    .btn-amarillo{
+        width: 100%;
+        height: 35px;
+        background-color: rgb(9, 101, 6);
+        border-radius: 4px;
+        color:aliceblue;
+    }
+    .btn-amarillo2{
+        border-radius: 4px;
+        width: 11.3%;
+        height: auto;
+        background-color: rgb(9, 101, 6);
+        padding: 1%;
+        color:aliceblue;
+    }
+    .btn-amarillo3{
+        border-radius: 4px;
+        width: 100%;
+        height: 35px;
+        background-color: rgb(93, 2, 82);
+        color:white;
+        padding: 1%;
+    }
+    .color1{
+        color: white;
+    }
+    
+    .color2{
+        color: rgb(0, 0, 0);
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 310px!important;
+        height: 420px!important;
+    }
+    .inputs{
+        width: 260px;
+        height: 24px;
+    }

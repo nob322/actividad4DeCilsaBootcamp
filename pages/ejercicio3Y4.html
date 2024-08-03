@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="bg-color3">
+    <div class="contiene">
+        <h1 class="color2 mt-1">Formulario de Datos Personales</h1>
+        <div class="bg-color4 form mt-1 border-0" style="width: 480px; height: auto;">
+            <form action="procesar.php" method="POST" id="myForm">
+                <p class="mt-2">
+                    <label for="nombre" class="color2 text-center">Nombre: </label><br>
+                    <input type="text" class="inputs bg-color4" id="nombre" name="nombre">
+                </p>
+                <p class="mt-2">
+                    <label for="apellido" class="color2 text-center">Apellido: </label><br>
+                    <input type="text" class="inputs bg-color4" id="apellido" name="apellido">
+                </p>
+                <p class="mt-2">
+                    <label for="correoElectronic" class="color2 text-center">Email: </label><br>
+                    <input type="text" class="inputs bg-color4" name="correo" id="correoElectronic">
+                </p>
+                <p class="mt-2">
+                    <label for="fechaNacimiento" class="color2 text-center">Fecha de nacimiento: </label><br>
+                    <input type="date" class="inputs bg-color4 color2" id="fechaNacimiento" name="fechaNacimiento">
+                </p>
+                <p class="mt-2">
+                    <label for="paisResidencia" class="color2 text-center">País de Residencia: </label><br>
+                    <input type="text" class="inputs bg-color4" id="paisResidencia" name="paisResidencia">
+                </p>
+                <input type="submit" value="Enviar" class="btn-amarillo3 mt-2"><br>
+            </form>
+        </div>
+    </div>
+    <script src="/assets/js/3.js"></script>
+</body>
+</html>
